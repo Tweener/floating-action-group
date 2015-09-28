@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/falb_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/falb_label_padding"
+        android:textColor="@color/falb_label"
+        android:textSize="@dimen/falb_label_text"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/falb_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:borderWidth="@dimen/fag_border"
+        app:elevation="@dimen/fag_elevation"
+        app:fabSize="mini"/>
+</merge>

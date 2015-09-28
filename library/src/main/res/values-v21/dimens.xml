@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fag_margin_between_fab">8dp</dimen>
+    <dimen name="fag_padding">16dp</dimen>
+    <dimen name="fag_elevation">6dp</dimen>
+</resources>

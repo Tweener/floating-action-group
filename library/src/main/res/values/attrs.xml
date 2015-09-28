@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatingActionGroup">
+        <attr name="srcCollapsed" format="reference"/>
+        <attr name="srcExpanded" format="reference"/>
+        <attr name="backgroundNormal" format="color"/>
+        <attr name="backgroundPressed" format="color"/>
+        <attr name="expanded" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="FloatingActionLabelledButton">
+        <attr name="label" format="string"/>
+        <attr name="src" format="reference"/>
+        <attr name="backgroundNormal"/>
+        <attr name="backgroundPressed"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FloatingActionGroup</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="fag_button1">Button 1</string>
+    <string name="fag_button2">Button 2</string>
+    <string name="fag_button3">Button 3</string>
+</resources>
