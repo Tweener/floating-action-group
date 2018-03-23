@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_fag_margin_end">8dp</dimen>
+    <dimen name="main_fag_margin_bottom">8dp</dimen>
+
+    <dimen name="favg_card_margin_right">10dp</dimen>
+    <dimen name="favg_margin_between_fab">0dp</dimen>
+    <dimen name="favg_padding_vert">0dp</dimen>
+    <dimen name="facg_padding">0dp</dimen>
+    <dimen name="fag_elevation">3dp</dimen>
+    <dimen name="fag_border">0dp</dimen>
+    <dimen name="falb_padding_horz">6dp</dimen>
+    <dimen name="favg_label_padding">6dp</dimen>
+    <dimen name="falb_label_text">12sp</dimen>
+    <dimen name="favg_card_corner_radius">1dp</dimen>
+    <dimen name="favg_card_elevation">3dp</dimen>
+
+</resources>

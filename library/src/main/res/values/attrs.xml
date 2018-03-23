@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="fontFileName" format="string"/>
+    <attr name="activeColor" format="color"/>
+    <attr name="inactiveColor" format="color"/>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="fontFileName"/>
+    </declare-styleable>
+
+    <attr name="positionCircularFab" format="enum">
+        <enum name="positionTopLeft" value="1"/>
+        <enum name="positionTopCenter" value="2"/>
+        <enum name="positionTopRight" value="3"/>
+        <enum name="positionCenterLeft" value="4"/>
+        <enum name="positionCenter" value="5"/>
+        <enum name="positionCenterRight" value="6"/>
+        <enum name="positionBottomLeft" value="7"/>
+        <enum name="positionBottomCenter" value="8"/>
+        <enum name="positionBottomRight" value="9"/>
+    </attr>
+
+    <declare-styleable name="FloatingActionGroup">
+        <attr name="srcCollapsed" format="reference"/>
+        <attr name="srcExpanded" format="reference"/>
+        <attr name="backgroundNormal" format="color"/>
+        <attr name="backgroundPressed" format="color"/>
+        <attr name="backgroundExpanded" format="color"/>
+        <attr name="groupExpanded" format="boolean"/>
+        <attr name="mainFabShouldRotate" format="boolean"/>
+        <attr name="mainFabRotateAngle" format="integer"/>
+        <attr name="mainFabShouldScale" format="boolean"/>
+        <attr name="mainFabScaleValue" format="float"/>
+        <attr name="fontFileName"/>
+    </declare-styleable>
+
+    <declare-styleable name="FloatingActionLabelledButton">
+        <attr name="label" format="string"/>
+        <attr name="src" format="reference"/>
+        <attr name="srcTint" format="color"/>
+        <attr name="backgroundNormal"/>
+        <attr name="backgroundPressed"/>
+        <attr name="fontFileName"/>
+    </declare-styleable>
+
+    <declare-styleable name="FloatingActionCircularGroup">
+        <attr name="radial" format="dimension"/>
+        <attr name="maxAngle" format="integer"/>
+        <attr name="startAngle" format="integer"/>
+        <attr name="endAngle" format="integer"/>
+        <attr name="positionCircularFab"/>
+    </declare-styleable>
+
+</resources>

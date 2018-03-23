@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/falb_cardview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/favg_card_margin_right"
+        app:cardBackgroundColor="@color/favg_label_background"
+        app:cardCornerRadius="@dimen/favg_card_corner_radius"
+        app:cardElevation="@dimen/favg_card_elevation"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="@dimen/favg_label_padding">
+
+        <com.tweener.floatingactiongroup.util.CustomTextView
+            android:id="@+id/falb_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/falb_label_color"
+            android:textSize="@dimen/falb_label_text"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/falb_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:borderWidth="@dimen/fag_border"
+        app:elevation="@dimen/fag_elevation"
+        app:fabSize="mini"/>
+</merge>
